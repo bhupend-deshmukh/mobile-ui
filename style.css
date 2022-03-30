@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid;
+
+  width: 100%;
+  background-position: bottom;
+
+  height: 100vh;
+
+  background-image: url("/img/venrick-unplsh1.jpg");
+}
+
+.fallowing span {
+  color: rgb(134, 146, 148);
+}
+.fallowing {
+  color: white;
+}
+
+.header-bar {
+  display: flex;
+  gap: 76px;
+  justify-content: center;
+  margin-top: 36px;
+}
+.header-bar div {
+  display: flex;
+  margin-left: 85px;
+}
+.ic {
+  color: white;
+}
+
+.icon-img {
+  height: 30px;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  height: 0px;
+  color: white;
+  border-radius: red;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.footer .icon {
+  font-size: 25px;
+}
+
+.bottom-img p {
+  margin-top: 5px;
+}
+.bottom-img {
+  display: flex;
+  gap: 10px;
+  color: white;
+}
+.bottom-img i {
+  margin-top: 5px;
+  color: white;
+}
+
+.bottom-img img {
+  border-radius: 50%;
+  width: 30px;
+  height: 10%;
+  /* display: flex; */
+}
+
+.music {
+  position: relative;
+  color: white;
+}
+.music-logo {
+  position: absolute;
+  top: 0rem;
+  right: 0;
+  z-index: 1;
+  border-radius: 50%;
+  height: 2rem;
+  width: 30px;
+  border: 2px solid white;
+}
+
+img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.footer-down {
+  color: white;
+  font-size: xx-large;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem 0;
+  background-color: black;
+  margin: -0.6rem;
+  margin-top: 2rem;
+}
+
+.footer-down ion-icon{
+  color: white;
+}
